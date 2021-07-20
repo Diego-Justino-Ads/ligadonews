@@ -1,8 +1,13 @@
 body {
-	background-color: rgb(92, 92, 92);
+	background-color: rgb(243, 243, 243);
 	padding: 0px;
     margin: 0px;
 	font-family: "Roboto", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(243, 243, 243);
 }
 
  /*INÍCIO MENU*/
@@ -158,6 +163,23 @@ header nav ul li a:hover, header nav ul li a:hover {
 	margin-top: 2%;
 }
 
+.card_video{
+	width: 70%;
+	height: 650px;
+	background-color: rgb(52, 52, 52);
+	border: 2px solid rgb(32, 32, 32);
+	box-shadow: 0px 0px 5px;
+	border-radius: 5px;
+	margin: 0px auto;
+	margin-top: 2%;
+}
+
+.video{
+	width: 80%;
+	height: 500px;
+	margin-left: 10%;
+}
+
 .card:hover{
 	background-color: rgb(0, 0, 0);
 }
@@ -172,6 +194,17 @@ header nav ul li a:hover, header nav ul li a:hover {
 
 h2{
 	color:rgb(255, 255, 0);
+	text-align: center;
+}
+
+spam{
+	color:rgb(255, 255, 0);
+}
+
+p{
+	color: rgb(243, 243, 243);
+	margin-left: 15px;
+	text-align: center;
 }
 
 .card_text{
@@ -181,7 +214,7 @@ h2{
 	height: 170px;
 	font-size: 16px;
 	text-align: center;
-	color: rgb(255, 255, 0);
+	color: rgb(243, 243, 243);
 }
 
 /*INICIO CARD REPONSIVO*/
@@ -191,12 +224,18 @@ h2{
 	   height: 650px;
 	}
 
+	.card_video{
+		width: 85%;
+		height: 750px;
+	}
+
 	.card img{
 		width: 98%;
 	}
 
 	.card_text{
 		width: 98%;
+		font-size: 14px;
 	}
 }
 /*FIM CARD REPONSIVO*/
@@ -204,28 +243,32 @@ h2{
 /*FIM CARD*/
 
 /*INICIO PAINEL*/
-.painel {
-	width: auto;
-	margin-bottom: 50px;
-	background-color: #140083;
+.referencia{
+	width: 100%;
+	height: auto;
+	background-color:rgb(255, 255, 0);
+	color:rgb(52, 52, 52);
+	text-align: center;
 }
 
-iframe{
-	width: 400px;
-	height: 250px;
-	margin-left: 38%;
+button{
+	width: 180px;
+	height: 85px;
+	font-size:  25px;
+	background-color: rgb(52, 52, 52);
+	color: rgb(255, 255, 0);
+	margin: 15px;
+	border-radius: 5px;
+	transition: 0.5s;
 }
 
-/*INICIO IFRAME REPONSIVO*/
-@media(max-width:650px){
-	iframe{
-		margin: 10%;
-	}
-}
-/*FIM IFRAME REPONSIVO*/
-
-.justificaTexto{
-	color: white;
+button:hover{
+	background-color: rgb(80, 80, 80);
+	color: rgb(255, 255, 0);
+	width: 190px;
+	height: 95px;
+	transition: 0.5s;
+	font-size: 27px;
 }
 /*FIM PAINEL*/
 
