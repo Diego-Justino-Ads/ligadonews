@@ -203,6 +203,15 @@ nav ul li a {
 	margin-top: 2%;
 }
 
+.card4{
+	width: 70%;
+	height: 450px;
+	background-color: nono;
+	border-radius: 5px;
+	margin: 0px auto;
+	margin-top: 2%;
+}
+
 .video{
 	width: 80%;
 	height: 500px;
@@ -273,7 +282,7 @@ spam{
 	 }
 }
 
-@media(max-width:950px){
+@media(max-width:960px){
 	.card{
 	   width: 85%;
 	   height: 650px;
@@ -285,6 +294,15 @@ spam{
 
 	.card2{
 		width: 85%;
+	 }
+
+	 .card3{
+		width: 85%;
+	 }
+
+	 .card4{
+		width: 85%;
+		height: 550px;
 	 }
 
 	.card_video{
@@ -311,11 +329,19 @@ spam{
 	 .card3{
 		height: 750px;
 	 }
+
+	 .card4{
+		height: 650px;
+	 }
 }
 
-@media(max-width:610px){
+@media(max-width:620px){
 	.card2{
 		height: 550px;
+	 }
+
+	 .card4{
+		height: 750px;
 	 }
 }
 
@@ -331,6 +357,10 @@ spam{
 	 }
 	 .card3{
 		height: 950px;
+	 }
+
+	 .card4{
+		height: 850px;
 	 }
 }
 
@@ -534,7 +564,7 @@ form{
 }
 
 input.entrada {
-	width: 60vh;
+	width: 60%;
 	max-width: 450px;
 	outline: none;
 	padding: 5px 30px;
@@ -549,7 +579,7 @@ input.entrada:focus{
 }
 
 textarea.text{
-	width: 60vh;
+	width: 60%;
 	max-width: 450px;
 	height: 200px;
 	resize: none;
